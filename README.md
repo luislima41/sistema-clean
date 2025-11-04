@@ -4,7 +4,7 @@ Este repositório contém a versão refatorada do sistema legado originalmente d
 
 Contexto
 
-O sistema foi gerado automaticamente a partir do repositório mvc-legacy-system utilizando o script disponível em auto-refactor-script.
+O sistema foi gerado automaticamente a partir do repositório sistema-mvc utilizando o script disponível em script-refatoracao.
 O objetivo da transformação foi:
 
 Melhorar modularidade e testabilidade;
@@ -17,18 +17,7 @@ Requisitos
 
 Python 3.10+
 
-Flask ou FastAPI (dependendo da camada de interface)
-
-pytest (para execução de testes unitários)
-
 Execução
-
-Instalar dependências:
-
-pip install -r requirements.txt
-
-
-Rodar aplicação:
 
 python main.py
 
