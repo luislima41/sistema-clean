@@ -13,15 +13,6 @@ Isolar regras de negócio da infraestrutura;
 
 Promover arquitetura independente de frameworks.
 
-Estrutura do Projeto
-
-clean-architecture-system/
-├── domain/
-├── usecases/
-├── infrastructure/
-├── interfaces/
-└── README.md
-
 Requisitos
 
 Python 3.10+
@@ -41,8 +32,3 @@ Rodar aplicação:
 
 python main.py
 
-Testes
-
-Para executar os testes:
-
-pytest"# sistema-clean" 
